@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "lib/soft-deletable.rb",
+    "lib/soft_deletable.rb",
     "lib/soft_delete.rb",
     "soft-deletable.gemspec"
   ]

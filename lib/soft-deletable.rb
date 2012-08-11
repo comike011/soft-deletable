@@ -1,4 +1,4 @@
-require 'lib/soft_delete.rb'
+#require 'lib/soft_delete'
 
 module SoftDeletable
   def self.included(klass)
@@ -53,3 +53,4 @@ module SoftDeletable
     end
   end
 end
+ActiveRecord::Base.send(:include, SoftDeletable)
