@@ -1,3 +1,5 @@
+require 'lib/soft_delete.rb'
+
 module SoftDeletable
   def self.included(klass)
     klass.send(:extend, MacroMethods)
