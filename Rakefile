@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/comike011/soft-deletable"
   gem.license = "MIT"
   gem.summary = %Q{Makes items soft deletable}
-  gem.description = %Q{coming soon}
+  gem.description = %Q{Allows for a model to have 'acts_as_soft_deletable' which adds soft_delete! and recover to be used inplace of delete}
   gem.email = "mikedcalhoun@gmail.com"
   gem.authors = ["Mike Calhoun", "Travis Roberts"]
   # dependencies defined in Gemfile
