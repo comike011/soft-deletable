@@ -24,7 +24,8 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "lib/soft-deletable.rb"
+    "lib/soft-deletable.rb",
+    "soft-deletable.gemspec"
   ]
   s.homepage = "http://github.com/comike011/soft-deletable"
   s.licenses = ["MIT"]
