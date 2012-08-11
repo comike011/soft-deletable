@@ -1,4 +1,4 @@
-module SoftDeleteable
+module SoftDeletable
   def self.included(klass)
     klass.send(:extend, MacroMethods)
   end
@@ -37,7 +37,7 @@ module SoftDeleteable
   end
 
   module MacroMethods
-    def acts_as_soft_deleteable(opts={})
+    def acts_as_soft_deletable(opts={})
       cattr_accessor :aasd_dependents, :aasd_depends_on, :table_name
 
       self.aasd_dependents = opts[:dependents] || {}
